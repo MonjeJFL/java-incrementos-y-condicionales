@@ -46,3 +46,59 @@ Actividades
 
 
 
+Las estructuras condicionales en Java:
+
+Son herramientas que le permiten al programa tomar decisiones y elegir qué camino seguir según si una condición es verdadera o falsa.
+
+if (Si): Evalúa una condición; si se cumple, ejecuta el código que tiene adentro.
+
+else if (Si no, si): Permite evaluar una nueva condición en caso de que la anterior no se haya cumplido.
+
+else (Si no): Es el bloque por defecto que se ejecuta cuando ninguna de las condiciones anteriores se cumplió.
+
+&& (y)
+|| (ó)
+!(no)
+
+
+--------------------------------------CONCLUSIONES FINALES-------------------------------
+
+¿Cuál es la principal diferencia entre ++variable y variable++?
+
+++variable, incrementa en 1 primero la variable por ejemplo 
+
+c= 5
+b=++c 
+
+primero el programa añade 1 unidad a "c" dando como resultado 
+c=6 y b=6
+
+En cambio en:
+c=5
+b=c++
+
+El programa primero le da el valor de "c" a "b" sin incrementar todavia y luego lo incrementa en 1 unidad a "c" de esta manera
+
+c=6
+b=5
+
+
+¿Qué estructura if considera más adecuada para situaciones complejas y por
+qué?
+
+La que considero mas adecuada es if-else if-else, que me permite anidar mejor las variables e información y la primera que se de ejecute al instante.
+
+¿Qué dificultades encontró durante el desarrollo?
+
+Las dificultades que mas tuve durante el desarrollo fue ordenar las corchetas {} al finalizar ciertos if else, que cerraban mal o simplemente no se encontraban donde debian para que el programa usara el orden correcto, al igual que el correcto usos de Scanner sc=new Scanner (System.in); y como tomar cada variable con el Int, Line, double, String
+
+¿Qué aprendizajes obtuvo durante la actividad?
+
+Mi mayor aprendizaje fue mejorar y entender mejor el uso de las corchetas {}, solucionar errores de sintaxis, asi como aprendí nuevas líneas de código en las variables de Si/No al tomar datos y que esta ignorara el uso de mayuscula y minúsculas, también aprendí a usar mejor los && o || que me ayudaron bastante a separar por grupos en if else, aprendí también a memorizar las líneas de código sin necesidad de ver mis apuntes, asi como el uso de comandos en git
+
+
+
+
+
+
+
